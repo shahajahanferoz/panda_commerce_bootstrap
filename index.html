@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg fixed-top bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="brand logo" />
@@ -36,13 +36,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoe</a>
+                <a class="nav-link" href="#shoes">Shoe</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Baackpack</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">subscribe</a>
+                <a class="nav-link" href="#subscribe">subscribe</a>
               </li>
             </ul>
           </div>
@@ -138,7 +138,7 @@
         </section>
         <!-- categories start -->
         <!-- Shoes section start  -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
           <h2>Shoes</h2>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -184,8 +184,8 @@
         </section>
         <!-- Shoes section end  -->
          <!-- Bags section start  -->
-         <section class="container my-5">
-          <h2>Bag</h2>
+         <section class="container my-5" id="backpack">
+          <h2>Backpack</h2>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
               <div class="card border border-0 shadow-lg h-100">
@@ -229,7 +229,24 @@
           </div>
         </section>
         <!-- Bags section end  -->
+        <!-- subscribe start  -->
+        <section style="height: 300px;" class="container rounded-3 d-flex align-items-center justify-content-center bg-info" id="subscribe">
+          <div>
+            <h2>LET'S STAY IN TOUCH</h2>
+          <p>Gates update in touch and enjoy our offer.</p>
+          <form>
+            <div class="mb-1">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          </div>
+        </section>
+        <!-- subscribe end  -->
     </main>
+    <footer class="mt-5 text-center">
+      <p>©2023 panda commerce. All right reserved  "Shahajahan Feroz".</p>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
